@@ -1,6 +1,3 @@
-## 📄 README.md
-
-
 # 💰 Investment Calculator
 
 A simple **Spring Boot** web application that simulates compound interest with **initial investment, monthly contributions, and annual interest rate**.  
