@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Investment Calculator</h1>
+    <form id="investmentForm">
+        <label for="initialValue">Initial Investment ($):</label>
+        <input type="number" id="initialValue" step="0.01" required>
+
+        <label for="contributionValue">Monthly Contribution ($):</label>
+        <input type="number" id="contributionValue" step="0.01" required>
+
+        <label for="rate">Annual Interest Rate (%):</label>
+        <input type="number" id="rate" step="0.01" required>
+
+        <label for="time">Time (years):</label>
+        <input type="number" id="time" required>
+
+        <button type="submit">Calculate</button>
+    </form>
+
+    <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
