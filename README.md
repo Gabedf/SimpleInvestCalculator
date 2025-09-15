@@ -45,7 +45,6 @@ src/main/resources/static/
 ```
 ````
 
----
 
 ## ▶️ How to Run
 1. Clone this repository:
