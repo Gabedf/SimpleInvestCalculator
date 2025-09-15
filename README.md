@@ -1,6 +1,6 @@
 ## 📄 README.md
 
-```markdown
+
 # 💰 Investment Calculator
 
 A simple **Spring Boot** web application that simulates compound interest with **initial investment, monthly contributions, and annual interest rate**.  
@@ -29,8 +29,8 @@ It also includes a **basic HTML/CSS/JS front-end** served by Spring Boot.
 ---
 
 ## 📂 Project Structure
-```
 
+```markdown
 src/main/java/com/develsolutions/Invest/Calculator/
 ├── controller/
 │    ├── InvestmentController.java   # REST API for calculation
@@ -42,7 +42,7 @@ src/main/resources/static/
 ├── index.html   # Front-end page
 ├── style.css    # Stylesheet
 └── script.js    # API integration logic
-
+```
 ````
 
 ---
